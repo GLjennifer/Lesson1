@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Description" content="#"> <!-- (Example: Compelling description to be displayed on Search Engine) -->
+		<meta name="author" content="#"> <!-- (example: Developers Name) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>[PAGE TITLE]</title>
+<!-- (Extrenal) Default Style Sheets =========== -->
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="http://gl-dev-staticweb.s3.amazonaws.com/blimp.css">
+		<link rel="stylesheet" type="text/css" href="http://gl-dev-staticweb.s3.amazonaws.com/maui.css">	
+<!-- Style Sheets ============================== -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+<!-- Additional Style Sheets =================== -->
+
+	</head>
+	<body>
+<!--[if IE]><div style='clear: both; height: 200px; width: 4000px; background-color: #ffffff; padding:15; position: relative;'><h1>Your Browser is not supported</h1><p>Minimum requirement to view this page:<br>Internet Explorer 9 / Google Chrome / Firefox / Safari</p></div><![endif]-->
+<!-- Content starts here ======================= -->
+
+<div class="container">
+	<div class="row">
+
+<!-- Carousel -->
+		        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
+		            <!-- Indicators --> 
+		            <ol class="carousel-indicators"> 
+		                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		            </ol>
+		            <!-- Wrapper for slides -->
+		            <div class="carousel-inner carousel-maui" role="listbox">
+		                <div class="item active">
+		                    <img src="img/dreams.jpg" class="img-responsive">
+		                    <div class="carousel-caption">
+		                        Don't let your dreams just be dreams.
+		                    </div>
+		                </div>
+		                <div class="item">
+		                    <img src="img/Life-is-Beautiful.jpg" class="img-responsive">
+		                    <div class="carousel-caption">
+		                        Life is beautiful.
+		                    </div>
+		                </div>
+		                <div class="item">
+		                    <img src="img/smile-banner.jpg" class="img-responsive">
+		                    <div class="carousel-caption">
+		                        Smile smile smile :)
+		                    </div>
+		                </div>
+		            </div>
+		            <!-- Controls -->
+		            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span>
+		            </a>
+		            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span>
+		            </a>
+		        </div>
+
+
+	</div>
+	<div class="row">
+		<div class="col-md-9">
+		
+		<!-- Video -->
+		  <section class="col-md-12 center-block">
+		    <div class="video-stage"> 
+		      <!-- Include the default video to be viewed -->
+		      <iframe src="http://www.youtube.com/embed/OG2eGVt6v2o" frameborder="0" allowfullscreen></iframe>
+		    </div>
+		  </section>
+
+		</div>
+		<div class="col-md-3 food">
+		<h3>What to eat today</h3>
+			<ul>
+				<li>chicken wings</li>
+				<li>pizza</li>
+				<li>gyros</li>
+				<li>spring rolls</li>
+				<li>pho</li>
+				<li>hu tieu</li>
+				<li>fish sauce</li>
+			</ul>
+		</div>
+	</div>
+	<br><br>
+	<div class="row">
+		<h3>Countdown</h3>
+		Days: <span id="countdownDays"></span><br>
+		Hours: <span id="countdownHr"></span><br>
+		Min: <span id="countdownMin"></span><br>
+		Sec: <span id="countdownSec"></span>
+	</div>
+</div>
+
+
+
+<!-- Default Scripts =========================== -->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<!-- 
+		<script src="http://gl-dev-staticweb.s3.amazonaws.com/scrollto.js"></script>
+ -->
+<!-- Custom Scripts below this line ============ -->
+		<script src="js/countdown.js"></script>
+
+
+
+
+
+	</body>
+</html>
